@@ -9,28 +9,15 @@ logger = logging.getLogger(__name__)
 SCREEN_WIDTH = 800
 SCREEN_HEIGHT = 600
 MARGIN = 30
-SCREEN_TITLE = "Space Shooter!"
+SCREEN_TITLE = "Alien Shooter!"
 
 NUM_ENEMIES = 5
 STARTING_LOCATION = (400,100)
-BULLET_DAMAGE = 10
-ENEMY_HP = 100
+BULLET_DAMAGE = 6
+ENEMY_HP = 120
 HIT_SCORE = 10
 KILL_SCORE = 100
 
-class Bullet(arcade.Sprite):
-    def __init__(self, position, velocity, damage):
-        super().__init__("assets/bullet.png", 0.5)
-        (self.center_x, self.center_y) = position
-        (self.dx, self.dy) = velocity
-        self.damage = damage
-
-    def update(self):
-        self.center_x += self.dx
-        self.center_y += self.dy
-
-
-    
 class Player(arcade.Sprite):
     def __init__(self):
         super().__init__("assets/spaceship.png", 2)
@@ -42,10 +29,17 @@ class Enemy(arcade.Sprite):
         self.hp = ENEMY_HP
         (self.center_x, self.center_y) = position
 
+class Bullet(arcade.Sprite):
+    def __init__(self, position, velocity, damage):
+        super().__init__("assets/bullet.png", 0.5)
+        (self.center_x, self.center_y) = position
+        (self.dx, self.dy) = velocity
+        self.damage = damage
 
+    def update(self):
+        self.center_x += self.dx
+        self.center_y += self.dy
         
-
-
 class Window(arcade.Window):
 
     def __init__(self, width, height, title):
