@@ -1,0 +1,35 @@
+Name:Jason Zhang
+Date:10/18/2019
+Project: P05-Space Shooter
+Peer's repository: https://github.com/AjsonZ/05-Space-shooter-1.git
+
+
+
+What is something you learned by reviewing your peer's project?
+He has concise codes and it works perfectly. I like his style of codes.
+
+What is something you saw in your peer's project that you would like to apply to your own programming projects?
+He puts all of variables at the very beginning and this is a lot of easier to check if there is something wrong. Also his work has very descriptive README file. 
+ 
+
+What suggestions would you have for your peer to improve his/her code?
+I think he can add some comments to his work. Comments are very helpful. It helps you organize your work and remain something you may forget.
+ 
+
+What could have been clearer or better commented?
+There is no comments on his work. If he can add some comments that will be perfect.
+
+Was there anything in the code that was confusing to you? If so, what?
+The hp of each enemies is 120 and each bullet will cause 6 damage. When I test it I find that I need to shoot 21 times in order to kill one enemy and points of the last shoot will not be count. I am confusing.
+ 
+
+Does the repository contain an appropriate LICENSE?
+Yes it does.
+ 
+
+What is something he/she could add to the README.md to make it more descriptive?
+He wrote a lot on README file. I think it is already descriptive.
+
+Pay a compliment to your peer based on the quality of his/her code.
+Overall, it's a great work. Very descriptive README file and concise code. I like the style of your codes and I think you can add some comments to your work next time.
+
