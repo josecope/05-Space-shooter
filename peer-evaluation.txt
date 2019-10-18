@@ -1,0 +1,42 @@
+Name: Elizabeth VanBuskirk
+Date: 10/17/2019
+Project: Space Shooter
+Peer's repository: Joey Copeland
+
+
+
+What is something you learned by reviewing your peer's project?
+    Joey's code is simple and easy to read as opposed to my own code.
+ 
+
+What is something you saw in your peer's project that you would like to apply to your own programming projects?
+    It's important to make your own code easy to sort through in case you want to add anything or need to
+    get rid of a bug. I also should've considered adding a background photo to mine, even though I don't know
+    how to do it.
+ 
+
+What suggestions would you have for your peer to improve his/her code?
+    One thing you could do would have the bullets shoot from your
+    spaceship as long as you are holding down your mouse, not just
+    when you initially press it, especially since it takes so many
+    bullets to kill a single enemy.
+
+What could have been clearer or better commented?
+    Nothing! Everything was very clear and easy to understand.
+ 
+
+Was there anything in the code that was confusing to you? If so, what?
+    No, the code was very clear and easy to understand.
+ 
+
+Does the repository contain an appropriate LICENSE?
+    Yes.
+ 
+
+What is something he/she could add to the README.md to make it more descriptive?
+    Nothing! The README.md file does a good job describing the objective of the
+    assignment and the game.
+
+Pay a compliment to your peer based on the quality of his/her code.
+    Joey's code is very easy to understand and organized. Overall the game is
+    really good, nice job!
